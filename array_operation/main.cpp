@@ -12,10 +12,6 @@ int main() {
     list<int>::iterator it;
     int i;
     vector<int> list2(list1.size());
-/*    for (it=list1.begin(),i = 0;it!=list1.end();++it,++i) {
-        list2[i] = *it;
-        cout<<list2[i]<<endl;
-    }*/
 
     char a[9][9] = {
             '5','3','.','.','7','.','.','.','.',
