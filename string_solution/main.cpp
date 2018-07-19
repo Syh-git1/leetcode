@@ -5,6 +5,7 @@ int main() {
 
 //    std::cout << "Hello, World!" << std::endl;
     Solution *solution = new Solution;
-    cout<<solution->firstUniqChar("aadadaad");
+//    cout<<solution->firstUniqChar("cc");
+    cout<<solution->isAnagram("aacc","ccac");
     return 0;
 }

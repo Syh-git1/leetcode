@@ -11,7 +11,12 @@ using namespace std;
 class Solution
 {
 public:
+    // 字符串中的第一个唯一字符
     int firstUniqChar(string s);
+    // 颠倒整数
+    int reverse(int x);
+    // 有效的字母异位词
+    bool isAnagram(string s, string t);
 
 };
 
